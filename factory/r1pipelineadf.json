@@ -1,0 +1,15 @@
+{
+	"name": "r1pipelineadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "45d4d9ae-c1fd-477f-8c7d-f2551232575a",
+		"tenantId": "d9c3cdad-6752-4886-b991-9c52a9afd083"
+	}
+}
