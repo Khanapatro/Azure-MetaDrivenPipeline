@@ -81,7 +81,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@item().table",
+											"value": "@{item().table}_cdc",
 											"type": "Expression"
 										},
 										"file": {
@@ -302,7 +302,7 @@
 												{
 													"type": "Query",
 													"text": {
-														"value": "select max(@{item().cdc_col})\nfrom \n@{item().schema}.@{item().table}",
+														"value": "@concat(\n    'SELECT MAX(',\n    item().cdc_col,\n    ') AS cdc FROM ',\n    item().schema,\n    '.',\n    item().table\n)",
 														"type": "Expression"
 													}
 												}
