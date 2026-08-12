@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "r1pipelineadf"
+		},
+		"AzureSqlDatabase_LS_password": {
+			"value": ""
+		},
+		"DataStorage_LS_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_server": {
+			"value": "pipelineserver.database.windows.net"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_database": {
+			"value": "r1pipelinedatabase"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_userName": {
+			"value": "serveradmin"
+		},
+		"DataStorage_LS_properties_typeProperties_url": {
+			"value": "https://r1pipelinestorage.dfs.core.windows.net/"
+		}
+	}
+}
