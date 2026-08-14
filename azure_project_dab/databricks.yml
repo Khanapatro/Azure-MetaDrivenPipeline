@@ -1,0 +1,46 @@
+# This is a Declarative Automation Bundle definition for azure_project_dab.
+
+bundle:
+  name: azure_project_dab
+  uuid: 36e15254-c3df-4a0e-85f7-b2c485adf544
+
+include:
+  - resources/*.yml
+
+variables:
+  catalog:
+    description: The catalog to use
+
+  schema:
+    description: The schema to use
+
+targets:
+  dev:
+    mode: development
+    default: true
+
+    workspace:
+      host: https://adb-7405619586673288.8.azuredatabricks.net
+      root_path: /Workspace/Users/khanapatro630@outlook.com/.bundle/${bundle.name}/${bundle.target}
+
+    variables:
+      catalog: r1pipelinedb_7405619586673288
+      schema: ${workspace.current_user.short_name}
+
+    presets:
+      source_linked_deployment: false
+
+  prod:
+    mode: production
+
+    workspace:
+      host: https://adb-7405619586673288.8.azuredatabricks.net
+      root_path: /Workspace/PROD/.bundle/${bundle.name}/${bundle.target}
+
+    variables:
+      catalog: r1pipelinedb_7405619586673288
+      schema: prod
+
+    permissions:
+      - user_name: khanapatro630@outlook.com
+        level: CAN_MANAGE
