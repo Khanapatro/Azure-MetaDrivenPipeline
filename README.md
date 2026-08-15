@@ -1,6 +1,6 @@
 <div align="center">
 <!-- Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=200&section=header&text=Azure%20Meta-Driven%20Data%20Pipeline&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Metadata-Driven%20Ingestion%20%7C%20Lakehouse%20Medallion%20Architecture%20%7C%20SCD%20Type%202&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=200&section=header&text=Azure-MetaDriven-Lakehouse&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Metadata-Driven%20Ingestion%20%7C%20Lakehouse%20Medallion%20Architecture%20%7C%20SCD%20Type%202&descAlignY=58&descSize=16" width="100%"/>
 <!-- Badges -->
 <p>
   <img src="https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
@@ -354,7 +354,7 @@ databricks bundle run <resource-name>
 ## 📂 Repository Structure
 
 ```text
-Azure-MetaDrivenPipeline/
+Azure-MetaDriven-Lakehouse/
 │
 ├── Screenshots/
 │   ├── implementation screenshots
