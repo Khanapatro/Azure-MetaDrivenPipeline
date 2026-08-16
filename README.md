@@ -27,6 +27,9 @@
 </p>
 </div>
 
+<img width="1536" height="1024" alt="ChatGPT Image Aug 16, 2026, 02_44_41 PM" src="https://github.com/user-attachments/assets/d6f54c0e-f7c3-4b63-a464-08fe8523e1d6" />
+
+
 ## 📌 Overview
 
 This is a **production-oriented, metadata-driven data engineering pipeline** on Azure. It performs **scheduled batch, incremental extraction** (not real-time streaming) of operational data from **Azure SQL Database**, lands it as **Parquet in ADLS Gen2**, and transforms it through a **Databricks Lakehouse (Bronze → Silver → Gold)** into an analytics-ready **star schema**, with full historical tracking via **SCD Type 2**.
