@@ -27,6 +27,8 @@
 </p>
 </div>
 
+## Project Architecture
+
 <img width="1536" height="1024" alt="ChatGPT Image Aug 16, 2026, 02_44_41 PM" src="https://github.com/user-attachments/assets/d6f54c0e-f7c3-4b63-a464-08fe8523e1d6" />
 
 
